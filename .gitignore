@@ -1,0 +1,38 @@
+# --- Secretos / credenciales ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*secrets*
+id_rsa
+id_rsa.*
+*.ppk
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Python (usado por src/build.py) ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Node (por si se agrega tooling más adelante) ---
+node_modules/
+npm-debug.log*
+
+# --- Archivos de trabajo / debug (no forman parte del sitio) ---
+screenshot*.png
+full.png
+*.tmp
